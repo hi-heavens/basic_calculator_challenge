@@ -13,18 +13,18 @@ document.getElementById("num2-el").textContent = num2
 let sum = document.getElementById("sum-el");
 
 function add() {
-    sum.textContent = "Sum: ",
-    sum.textContent += num1 + num2;
+    let result = num1 + num2;
+    sum.textContent = "Sum: " + result;
 }
 
 function subtract() {
-    sum.textContent = "Sum: ",
-    sum.textContent += num1 - num2;
+    let result = num1 - num2;
+    sum.textContent = "Sum: " + result;
 }
 
 function divide() {
-    sum.textContent = "Sum: ",
-    sum.textContent += num1 / num2;
+    let result = num1 / num2;
+    sum.textContent = "Sum: " + result;
 }
 
 function multiply() {
